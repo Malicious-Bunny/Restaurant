@@ -2,6 +2,8 @@
 
 Welcome to the official repository of Purgatory's Last Meal, the only restaurant located in Purgatory! We serve last meals to those in transit between life and the afterlife.
 
+## Stack used
+
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
@@ -25,9 +27,14 @@ None
 To get a local copy up and running follow these simple steps:
 
 ```bash
-git clone https://github.com/yourusername/PurgatorysLastMeal.git
-cd PurgatorysLastMeal
+#clone repo
+git clone https://github.com/Malicious-Bunny/Restaurant/tree/gh-pages.git
+cd dist
+#Install Dependecies
 npm install
-npm run buildls
+#build project
+npm run build
+#Live demo
+npm start
 
 
